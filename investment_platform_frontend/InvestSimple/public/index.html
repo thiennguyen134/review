@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Investment Application</h1>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Home</h2>
+                <p>Welcome to our investment application. Here, you can manage your investments efficiently.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>Learn more about our services and how we can help you achieve your financial goals.</p>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required autocomplete="name">
+                    <span id="nameError" class="error-message"></span>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required autocomplete="current-password">
+                    <span id="passwordError" class="error-message"></span>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you have any questions, please feel free to contact us.</p>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Investment Application. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+</body>
+</html>

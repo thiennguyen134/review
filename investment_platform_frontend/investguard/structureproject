@@ -1,0 +1,67 @@
+
+### 2. React + TypeScript + CSS Modules (InvestGuard)
+```bash
+npx create-react-app investguard --template typescript
+
+npm start
+npx create-react-app investguard --template typescript
+investment-platform-frontend/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   ├── Login.module.css
+│   │   │   └── Register.module.css
+│   │   ├── dashboard/
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Profile.tsx
+│   │   │   ├── Dashboard.module.css
+│   │   │   └── Profile.module.css
+│   │   ├── investments/
+│   │   │   ├── InvestmentList.tsx
+│   │   │   ├── InvestmentDetail.tsx
+│   │   │   ├── InvestmentList.module.css
+│   │   │   └── InvestmentDetail.module.css
+│   │   ├── portfolio/
+│   │   │   ├── PortfolioList.tsx
+│   │   │   ├── PortfolioDetail.tsx
+│   │   │   ├── PortfolioList.module.css
+│   │   │   └── PortfolioDetail.module.css
+│   │   ├── transactions/
+│   │   │   ├── TransactionList.tsx
+│   │   │   ├── TransactionForm.tsx
+│   │   │   ├── TransactionList.module.css
+│   │   │   └── TransactionForm.module.css
+│   │   ├── reports/
+│   │       ├── Report.tsx
+│   │       ├── Analytics.tsx
+│   │       ├── Report.module.css
+│   │       └── Analytics.module.css
+│   │   ├── shared/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Header.css
+│   │   │   ├── Main.tsx
+│   │   │   ├── Main.css
+│   │   │   ├── Footer.tsx
+│   │   │   └── Footer.css
+│   ├── hooks/
+│   │   ├── useFormValidation.ts
+│   ├── services/
+│   │   ├── AuthService.ts
+│   │   ├── InvestmentService.ts
+│   │   ├── PortfolioService.ts
+│   │   ├── TransactionService.ts
+│   │   └── ReportService.ts
+│   ├── utils/
+│   │   ├── AuthUtil.ts
+│   │   └── ApiUtil.ts
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── routes.tsx
+│   └── styles/
+│       └── main.css
+└── package.json

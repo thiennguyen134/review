@@ -1,0 +1,184 @@
+To effectively manage versions and improvements for each project, you can adopt a versioning scheme like Semantic Versioning (SemVer). SemVer uses a three-part version number: MAJOR.MINOR.PATCH, where:
+
+- **MAJOR**: Incremented for incompatible API changes.
+- **MINOR**: Incremented for added functionality in a backward-compatible manner.
+- **PATCH**: Incremented for backward-compatible bug fixes.
+
+For daily improvements, you can increment the PATCH version. Additionally, you might consider using build metadata to denote the date of the improvement (e.g., `1.0.0+20210722` for an improvement made on July 22, 2021).
+
+### Version Naming for Each Combination
+
+Here are the suggested names and versioning approaches for each combination:
+
+### Java Spring
+
+#### 1. **InvestSpringSQL**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 2. **InvestSpringPostgres**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 3. **InvestSpringMongo**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### Python
+
+#### 4. **InvestDjangoSQL**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 5. **InvestDjangoPostgres**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 6. **InvestDjangoMongo**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### Node.js
+
+#### 7. **InvestNodeSQL**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 8. **InvestNodePostgres**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 9. **InvestNodeMongo**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### React Frontend
+
+#### 10. **InvestTrack**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 11. **InvestGuard**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 12. **InvestStyler**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 13. **InvestFlow**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 14. **InvestLite**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 15. **InvestMod**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 16. **InvestStyleJS**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 17. **InvestWind**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 18. **InvestEmotion**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 19. **InvestAnt**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 20. **InvestBoot**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### Vue Frontend
+
+#### 21. **VueVest**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 22. **VueLite**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 23. **VueFlow**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 24. **VueWind**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### Angular Frontend
+
+#### 25. **AngularVest**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 26. **AngularFlow**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 27. **AngularBoot**
+   - **Version Example**: `1.0.0`
+   -
+
+ **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+### Svelte Frontend
+
+#### 28. **SvelteVest**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 29. **SvelteLite**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 30. **SvelteFlow**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+#### 31. **SvelteWind**
+   - **Version Example**: `1.0.0`
+   - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
+   - **Version with Date**: `1.0.0+20210722`
+
+Using this approach, you can maintain a clear version history for each project, making it easier to track improvements and manage releases.
