@@ -1,10 +1,6 @@
-To effectively manage versions and improvements for each project, you can adopt a versioning scheme like Semantic Versioning (SemVer). SemVer uses a three-part version number: MAJOR.MINOR.PATCH, where:
-
 - **MAJOR**: Incremented for incompatible API changes.
 - **MINOR**: Incremented for added functionality in a backward-compatible manner.
 - **PATCH**: Incremented for backward-compatible bug fixes.
-
-For daily improvements, you can increment the PATCH version. Additionally, you might consider using build metadata to denote the date of the improvement (e.g., `1.0.0+20210722` for an improvement made on July 22, 2021).
 
 ### Version Naming for Each Combination
 
@@ -181,4 +177,3 @@ Here are the suggested names and versioning approaches for each combination:
    - **Daily Improvement Example**: `1.0.1`, `1.0.2`, `1.0.3`
    - **Version with Date**: `1.0.0+20210722`
 
-Using this approach, you can maintain a clear version history for each project, making it easier to track improvements and manage releases.

@@ -1,0 +1,56 @@
+investment-platform-frontend/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── images/
+│       └── ...
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── login.html
+│   │   │   └── register.html
+│   │   ├── dashboard/
+│   │   │   ├── dashboard.html
+│   │   │   └── profile.html
+│   │   ├── investments/
+│   │   │   ├── investment-list.html
+│   │   │   └── investment-detail.html
+│   │   ├── portfolio/
+│   │   │   ├── portfolio-list.html
+│   │   │   └── portfolio-detail.html
+│   │   ├── transactions/
+│   │   │   ├── transaction-list.html
+│   │   │   └── transaction-form.html
+│   │   └── reports/
+│   │       ├── report.html
+│   │       └── analytics.html
+│   ├── js/
+│   │   ├── auth/
+│   │   │   ├── login.js
+│   │   │   └── register.js
+│   │   ├── dashboard/
+│   │   │   ├── dashboard.js
+│   │   │   └── profile.js
+│   │   ├── investments/
+│   │   │   ├── investment-list.js
+│   │   │   └── investment-detail.js
+│   │   ├── portfolio/
+│   │   │   ├── portfolio-list.js
+│   │   │   └── portfolio-detail.js
+│   │   ├── transactions/
+│   │   │   ├── transaction-list.js
+│   │   │   └── transaction-form.js
+│   │   └── reports/
+│   │       ├── report.js
+│   │       └── analytics.js
+│   ├── css/
+│   │   ├── auth.css
+│   │   ├── dashboard.css
+│   │   ├── investments.css
+│   │   ├── portfolio.css
+│   │   ├── transactions.css
+│   │   └── reports.css
+│   ├── index.html
+│   ├── main.js
+│   └── main.css
+└── package.json

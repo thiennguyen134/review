@@ -5,6 +5,7 @@ npx create-react-app investguard --template typescript
 
 npm start
 npx create-react-app investguard --template typescript
+npm install axios
 investment-platform-frontend/
 ├── public/
 │   ├── index.html

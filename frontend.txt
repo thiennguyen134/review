@@ -1,4 +1,3 @@
-Sure! Here are the commands to set up each of the mentioned project combinations. I'll use a standard structure for setting up projects using common tools like `create-react-app`, `Vue CLI`, `Angular CLI`, and SvelteKit.
 
 ### 1. React + TypeScript + SCSS (InvestTrack)
 ```bash
@@ -268,5 +267,3 @@ export default {
   }),
 };
 ```
-
-These commands will set up the respective frontend projects with the desired configurations. Adjust the `index` or `App` files as needed to include any additional setup or styling requirements.

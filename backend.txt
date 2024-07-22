@@ -1,4 +1,3 @@
-Sure! Here are combinations of backend technologies with project names and commands to set up each one using Java Spring, Python, and Node.js.
 
 ### Java Spring
 
@@ -293,4 +292,3 @@ Sure! Here are combinations of backend technologies with project names and comma
      });
      ```
 
-These commands will set up backend projects with the desired configurations using Java Spring, Python (Django), and Node.js (Express). Adjust configurations and further project structure as needed for specific requirements.
